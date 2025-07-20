@@ -12,7 +12,9 @@
 	<artifactId>ventryx</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ventryx</name>
-	<description>Demo project for Spring Boot</description>
+	<description>
+		Backend for Ventryx is a white-labeled, all-in-one CRM and marketing platform for agency owners to manage and resell powerful tools to their clients—featuring funnels, websites, product sales, sub-accounts, analytics, and more.
+	</description>
 	<url/>
 	<licenses>
 		<license/>

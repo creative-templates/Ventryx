@@ -1,0 +1,66 @@
+# top-most EditorConfig file
+root = true
+
+# All files - base settings
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Java files - Google Java Style Guide
+[*.java]
+indent_size = 2
+max_line_length = 100
+continuation_indent_size = 4
+
+# XML files (pom.xml, checkstyle.xml, etc.)
+[*.xml]
+indent_size = 2
+max_line_length = 120
+
+# Properties files
+[*.properties]
+indent_size = 2
+max_line_length = 120
+
+# YAML files
+[*.{yml,yaml}]
+indent_size = 2
+max_line_length = 120
+
+# JSON files
+[*.json]
+indent_size = 2
+max_line_length = 120
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = 80
+indent_size = 2
+
+# Shell scripts (Unix)
+[*.{sh,bash}]
+indent_size = 2
+end_of_line = lf
+
+# Batch files (Windows)
+[*.{bat,cmd}]
+indent_size = 2
+end_of_line = crlf
+
+# Dockerfile
+[Dockerfile*]
+indent_size = 2
+
+# SQL files
+[*.sql]
+indent_size = 2
+max_line_length = 120
+
+# Configuration files
+[*.{ini,conf,config}]
+indent_size = 2
